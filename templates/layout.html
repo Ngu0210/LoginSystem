@@ -56,16 +56,15 @@
         </div>
     </nav>
     <div class="container">
-        <!-- <nav class="bg-dark">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="{{ url_for('home') }}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-uppercase"  href="{{ url_for('about') }}">About</a>
-                </li>
-            </ul>
-        </nav> -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
         {% block content %}{% endblock %}
     </div>
 
