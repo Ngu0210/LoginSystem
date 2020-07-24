@@ -9,6 +9,8 @@ pylint = "*"
 [packages]
 flask = "*"
 flask-wtf = "*"
+wtform = {extras = ["email"], version = "*"}
+email-validator = "*"
 
 [requires]
 python_version = "3.8"
