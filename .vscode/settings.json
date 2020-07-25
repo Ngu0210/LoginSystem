@@ -1,3 +1,10 @@
 {
-    "python.pythonPath": "C:\\Users\\Danny\\.virtualenvs\\LoginSystem-Wq6JQXpF\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\Danny\\.virtualenvs\\LoginSystem-Wq6JQXpF\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask",
+        "pylint-flask-sqlalchemy"
+        ],
+    "python.linting.enabled": true
 }

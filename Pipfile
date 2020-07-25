@@ -12,6 +12,8 @@ flask-wtf = "*"
 wtform = {extras = ["email"], version = "*"}
 email-validator = "*"
 flask-sqlalchemy = "*"
+pylint-flask = "*"
+pylint-flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.8"
