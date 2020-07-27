@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\Danny\\.virtualenvs\\LoginSystem-Wq6JQXpF\\Scripts\\python.exe",
+    "python.pythonPath": "/Users/dannynguyen/.local/share/virtualenvs/LoginSystem-MOMOvRgg/bin/python",
     "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": [
         "--load-plugins",
